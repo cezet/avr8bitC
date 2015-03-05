@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "RTC_test", "RTC_test\RTC_test.cproj", "{E2604FAE-0ADC-4DC8-9194-3C9FA553CC29}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "tabletest", "tabletest\tabletest.cproj", "{8C8EE6C5-543D-4C5E-A383-9F0CBC79580A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2604FAE-0ADC-4DC8-9194-3C9FA553CC29}.Debug|AVR.ActiveCfg = Debug|AVR
+		{E2604FAE-0ADC-4DC8-9194-3C9FA553CC29}.Debug|AVR.Build.0 = Debug|AVR
+		{E2604FAE-0ADC-4DC8-9194-3C9FA553CC29}.Release|AVR.ActiveCfg = Release|AVR
+		{E2604FAE-0ADC-4DC8-9194-3C9FA553CC29}.Release|AVR.Build.0 = Release|AVR
+		{8C8EE6C5-543D-4C5E-A383-9F0CBC79580A}.Debug|AVR.ActiveCfg = Debug|AVR
+		{8C8EE6C5-543D-4C5E-A383-9F0CBC79580A}.Debug|AVR.Build.0 = Debug|AVR
+		{8C8EE6C5-543D-4C5E-A383-9F0CBC79580A}.Release|AVR.ActiveCfg = Release|AVR
+		{8C8EE6C5-543D-4C5E-A383-9F0CBC79580A}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

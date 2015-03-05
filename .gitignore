@@ -7,12 +7,18 @@
 # Precompiled Headers
 *.gch
 *.pch
+*.map
+*.lss
+*.mk
+*.srec
 
 # Libraries
 *.lib
 *.a
 *.la
 *.lo
+*.d
+*.o
 
 # Shared objects (inc. Windows DLLs)
 *.dll
@@ -27,3 +33,4 @@
 *.i*86
 *.x86_64
 *.hex
+Makefile
