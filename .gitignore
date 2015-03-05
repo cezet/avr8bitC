@@ -34,3 +34,6 @@
 *.x86_64
 *.hex
 Makefile
+# Dirs
+Debug/
+Release/
