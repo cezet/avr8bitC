@@ -85,6 +85,8 @@ int main(void)
 		dhtxxV2_reset(2);
 		dhtxxV2_check(2);
 		dhtxxV2_message_read(dht22_table, 2);
+		
+		itoa(dhtxxV2_trunc(dht22_table), text_buffer, 10);
 				
 		
 		

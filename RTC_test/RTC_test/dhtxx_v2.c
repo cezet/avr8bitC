@@ -83,3 +83,7 @@ void dhtxxV2_convert2int16(uint16_t *table){
 		*table = *table + 1;
 	}
 }
+int8_t dhtxxV2_trunc(uint16_t *table){
+	
+	return (int8_t) *table / 10;
+}

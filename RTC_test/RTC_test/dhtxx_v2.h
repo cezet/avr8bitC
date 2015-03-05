@@ -20,6 +20,7 @@ void dhtxxV2_check(uint8_t sensor_id);
 uint8_t dhtxxV2_byte_read(uint8_t sensor_id);
 void dhtxxV2_message_read(uint8_t *table, uint8_t sensor_id);
 void dhtxxV2_convert2int16(uint16_t *table);
+int8_t dhtxxV2_trunc(uint16_t *table);
 
 
 #endif /* DHTXX_V2_H_ */
